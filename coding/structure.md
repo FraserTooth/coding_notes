@@ -1,7 +1,7 @@
 # Structure
 Notes about coding in a structured way.
 
-#### The Wet Codebase
+## The Wet Codebase
 https://www.deconstructconf.com/2019/dan-abramov-the-wet-codebase
 Dan Abramov discusses how a abstraction created to avoid duplicated code eventually turned into an unmaintainable monster with the passage of time.
 Lessons:
