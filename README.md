@@ -1,2 +1,2 @@
-# coding_notes
-Notes on Coding
+# Notes
+Notes on Stuff
