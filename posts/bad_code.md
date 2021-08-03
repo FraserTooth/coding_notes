@@ -63,7 +63,9 @@ Combines all the check messages into one output status `Pass/Fail` and a list of
 
 This seems a bit basic, but you think that maybe the commit history will explain a bit more. Unfortunately, its not very helpful - you see they've made a change to a few files and some test files, a new `IF` statement seems to check some value in an object. It doesn't look _too_ complicated, but you don't really understand it either...  
 
-Really frustrating right? Now you've got to sit down **and really read this damn code**. You've got to read all the old code, and all the new changes, look at the variable names, look at the tests as changed, and try to figure out what was actually changed and why. This can take a really long time, especially so if your colleague has used some fancy new language features or maybe they've tried some interesting recursive logic. Maybe something like this:
+Really frustrating right? Now you've got to sit down **and really read this damn code**. You've got to read all the old code, and all the new changes, look at the variable names, look at the tests as changed, and try to figure out what was actually changed and why. Humans, and especially developers, are fundamentally lazy beings. We are easily distracted by our Slack notifications, coffee and FOMO trending towards procrastination at all times. We are labrador puppies, we are 5-year-olds. We don't like things that are hard to understand (like the AWS IAM, _badoomtish_ 🥁)
+
+This can take a really long time, especially so if your colleague has used some fancy new language features or maybe they've tried some interesting recursive logic. Maybe something like this:
 
 ```python
 def run_checks(inputs):
@@ -124,5 +126,5 @@ So, in summary, you aren't going to write efficient software because:
 1. You probably don't know what the perfect solution looks like yet. (_The Rule of Three_)
 2. You don't have time to build the perfect solution. (_Brook's Law_)
 3. You don't have to worry about the monetary cost of your silly code (until you're told to). (_AWS credits go brrrrrrrr_)
-4. You shouldn't, because dumb code can be properly reviewed by your peers. (_Explain it like I'm 5_)
+4. You shouldn't, because dumb code can be properly reviewed by your peers. (_Explain it like everyone else is 5_)
 
