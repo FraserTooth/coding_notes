@@ -1,4 +1,4 @@
-# In Defence of Bad Code
+# Imperfect Code
 
 Since graduating from Code Chrysalis, I've been "helping out around the house", teaching Foundations as a part-time instructor, as well as helping out with mock interviews for graduating immersive students. One question has come up repeatedly in various forms:
 
@@ -40,10 +40,13 @@ Yes, this is unsustainable. There will come a point where a company will see tha
 In general, it is a developer's job to write code and it is a product manager's job to help the developers to write the correct code. In an ideal world, the developers would only receive perfectly scoped work requests and they wouldn't need to ask anyones advice or for further context. Fewer distractions and meetings for engineers means more features in the pipeline - all good!
 But, its rare to get enough information in a work request right? And we're a nosy lot aren't we? So we start asking about the business and we talk to all sorts of people and we "get ourselves involved" in the project at large. This can lead us to believe that _we know what would be good for the product_, but since we're not immersed in the wider context all day, this is often a misplaced sense of understanding. We get ourselves distracted.
 
-Having a sense of agency can be great, but this is best expressed in the context of a "hack-day", where time is set aside for the engineers to improve things that they are passionate about. Some of the best internal tools come from these days - but its rare for something that actually makes money to come out of such an event.
+Having a sense of agency and involvement in your work can be great, but this is best expressed in the context of a "hack-day", where time is set aside for the engineers to improve things that they are passionate about. Some of the best internal tools come from these days - but its rare for something shippable to come out of such an event.
 
 Lets say you are fixing a bug, and you notice that there are some fundamental refactors that could be done to reduce the cost of this procedure by 33%. Sounds great right? Why wouldn't I just fix it? It'll only take me a day!  
 But here are some things that might be happening, that only a PM or Engineering Manager would have view of:
  - That fix would cause a knock-on dependancy problem for another larger system
  - There is another refactor in the backlog that would save 5 times as much money and would solve this problem anyway
  - We have an upcoming contract negotiation with a client and want to get as many bugs fixed as possible to strengthen our position
+
+The big picture might not be in your view, and thats fine - being given space to focus on the specific work that needs done means that you're probably not going to be kept up-to-date on all the myriad other problems being juggled at any one time. Its not your job to worry about whether you, as a company, are spending too much money on your cloud bill. If you see something that could be fixed, just write what you've learned in a ticket and let your Product Manager know. It might end up being really important for the problems they are currently facing - but thats for them to decide.
+
