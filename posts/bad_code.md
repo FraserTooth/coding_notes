@@ -113,18 +113,16 @@ I did add type hints and comments after this, but I really didn't need to add mu
 I used the features of Python that lend themselves to **readability**. `for check in checks` - its a simple loop, but it reads like regular english. There is a reason `for...of` is the first loop we teach in the Code Chrysalis beginners Foundation course, its readable, arguably, by a 5 year old.
 And therefore, **it is safe code**, we can be much more confident that our colleagues will be able to properly review our code and ensure that we haven't made any (totally normal) human errors. Simple code is easier to typecheck. Simple code is easier to refactor. Even if you have some big discussion on Github or Slack about how your clever solution works and everyone agrees that you're a big clever clogs - that conversation isn't in the code, and you'll cause problems for the poor sod who has to try and understand your _genius_ in 7 years time.
 
-This idea extends to all sorts of things - documentation, PR descriptions, emails, backlog tickets, presentations. Whenever you write something, sit back and think...could this be simpler? Could I say this in fewer words? (as I will inevitably do several times with this post 😆) Everyone will thank you for it.
+This idea extends to all sorts of things - documentation, PR descriptions, emails, backlog tickets, presentations. Whenever you write something, sit back and think...could this be simpler? Could I say this in fewer words? Can I add pictures? 
+
+Everyone will thank you for it.
 
 
 ## In Conclusion
 
 So, in summary, you aren't going to write efficient software because:
-1. You probably don't know what the perfect solution looks like yet.
-  - _The Rule of Three_ 
-2. You don't have time to build the perfect solution.
-  - _Brook's Law_
-3. You don't have to worry about the monetary cost of your silly code (until you're told to).
-  - _AWS credits go brrrrrrrr_
-4. You shouldn't, because dumb code can be properly reviewed by your peers.
-  - _Explain it like I'm 5_
+1. You probably don't know what the perfect solution looks like yet. (_The Rule of Three_)
+2. You don't have time to build the perfect solution. (_Brook's Law_)
+3. You don't have to worry about the monetary cost of your silly code (until you're told to). (_AWS credits go brrrrrrrr_)
+4. You shouldn't, because dumb code can be properly reviewed by your peers. (_Explain it like I'm 5_)
 
