@@ -78,7 +78,7 @@ const vercelContentUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_
 const twitterTag = (<meta name="twitter:image" content={`${vercelContentUrl}/thumbnail.png`} />)
 ```
 
-The core point is: Twitter needs a full URL, but Vercel changes the URL, use the `VERCEL_URL` environment variable as part of your build system to get it, even in Preview.
+The core point is: Twitter needs a full URL, but Vercel has a dynamic and random URL, use the `VERCEL_URL` environment variable as part of your build system to get it, even in Preview.
 
 Hope that was useful ✌️ have a great week!
 
