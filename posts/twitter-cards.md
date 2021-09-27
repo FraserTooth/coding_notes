@@ -7,5 +7,5 @@ Very Spooky 💀🎃 and it also looks kinda bad right?
 
 Now, I thought this would be an easy fix, but I just sunk like _3 terrifying and nightmarish hours_ into this _dastardly experiment of my own invention_ so I'm here to _regale_ to you my _tale of woe and tragedy_ so that _**YOU** my child shall not befall such a fate as **I**..._ so yeah _lend me thine ears_ etc. etc. Spooktober 💀🎃
 
-https://media.giphy.com/media/3ornjMatsZL3hRYltm/giphy.gif?cid=ecf05e47jw9i9uqooc8nuo4agbl5pdcj0ay3lo1qf3pbha95&rid=giphy.gif&ct=g
+![image](https://media.giphy.com/media/3ornjMatsZL3hRYltm/giphy.gif?cid=ecf05e47jw9i9uqooc8nuo4agbl5pdcj0ay3lo1qf3pbha95&rid=giphy.gif&ct=g)
 
