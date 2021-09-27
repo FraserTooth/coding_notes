@@ -5,7 +5,7 @@ I recently tried sharing a post on Twitter about my website [Denki Carbon](https
 😱😱😱😱 𝕬𝖓 𝕰𝖒𝖕𝖙𝖞 𝕴𝖒𝖆𝖌𝖊 𝕭𝖔𝖝 😱😱😱😱  
 Very Spooky 💀🎃👻 and it also looks kinda bad right?  
 
-Now, I thought this would be an easy fix, but I just sunk like _3** terrifying and nightmarish hours**_ into this _**dastardly experiment of my own invention**_ so I'm here to _**regale**_ to you my _**tale of woe and tragedy**_ so that _**YOU my child shall not befall such a fate as I**..._ so yeah _**lend me thine ears**_ etc. etc. Spooktober 💀🎃👻
+Now, I thought this would be an easy fix, but I just sunk like _**Threescore terrifying and nightmarish hours**_ into this _**dastardly experiment of my own invention**_ so I'm here to _**regale**_ to you my _**tale of woe and tragedy**_ so that _**YOU my child shall not befall such a fate as I**..._ so yeah _**lend me thine ears**_ etc. etc. Spooktober 💀🎃👻
 
 ![image](https://media.giphy.com/media/3ornjMatsZL3hRYltm/giphy.gif?cid=ecf05e47jw9i9uqooc8nuo4agbl5pdcj0ay3lo1qf3pbha95&rid=giphy.gif&ct=g)
 
@@ -67,9 +67,18 @@ This sets the `PUBLIC_URL` environment variable with the total generated vercel 
 <meta name="twitter:image" content="https://denki-carbon-qzjnakv9r-frasertooth.vercel.app/thumbnail.png">
 ```
 
-_**AND THUS our tale is at an end**_ Twitter reads the URL, scrapes the page and sees that nice full URL. Giving you a nice formatted card like this:
+_**AND THUS our tale is at an end**_, Twitter reads the URL, scrapes the page and sees that nice full URL. Giving you a nice formatted card like this:
 > ![image](https://user-images.githubusercontent.com/25011388/134927322-b3f90371-1475-453e-a599-3f72b70dc1b8.png)
 > [Post](https://twitter.com/FraserTooth/status/1442322181275353091) Yah follow me on Twitter [@FraserTooth](https://twitter.com/FraserTooth), nerdy takes **guaranteed**
+
+Naturally, there are nicer ways to do this, if your build system uses Node, you might do something like this:
+```jsx
+const vercelContentUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '';
+
+const twitterTag = (<meta name="twitter:image" content={`${vercelContentUrl}/thumbnail.png`} />)
+```
+
+The core point is: Twitter needs a full URL, but Vercel changes the URL, use the `VERCEL_URL` environment variable as part of your build system to get it, even in Preview.
 
 Hope that was useful ✌️ have a great week!
 
