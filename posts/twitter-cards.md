@@ -69,7 +69,7 @@ This sets the `PUBLIC_URL` environment variable with the total generated vercel 
 
 _**AND THUS our tale is at an end**_, Twitter reads the URL, scrapes the page and sees that nice full URL. Giving you a nice formatted card like this:
 > ![image](https://user-images.githubusercontent.com/25011388/134927322-b3f90371-1475-453e-a599-3f72b70dc1b8.png)
-> [Post](https://twitter.com/FraserTooth/status/1442322181275353091) Yah follow me on Twitter [@FraserTooth](https://twitter.com/FraserTooth), nerdy takes **guaranteed**
+> [Post](https://twitter.com/FraserTooth/status/1442322181275353091) - Follow me on Twitter [@FraserTooth](https://twitter.com/FraserTooth), nerdy takes ｇｕａｒａｎｔｅｅｄ
 
 Naturally, there are nicer ways to do this, if your build system uses Node, you might do something like this:
 ```jsx
